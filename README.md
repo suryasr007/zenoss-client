@@ -1,5 +1,5 @@
 # Node-Zenoss-Client
-
+ Inspired from [python-zenoss-client](https://github.com/sayanarijit/python-zenoss-client)
 ### Installation
 
 ```bash
@@ -13,7 +13,7 @@ npm install
 
 * Import the client
 ```js
-const ZenossClient = require('./zenClient_class');
+const ZenossClient = require('./zenoss_client');
 ```
 
 * Intialize the class
@@ -39,4 +39,21 @@ res.then((successMessage)=>{
 }).catch((err)=>{
     console.log(err);    
 })
+```
+
+### Documentation
+
+For full documentation of zenoss API, kindly refer to the link below:
+
+
+[json_api.sh](http://wiki.zenoss.org/Working_with_the_JSON_API#v5_version_of_the_json_api.sh) SHELL script published on [zenoss official wiki](http://wiki.zenoss.org)
+
+
+### [zenoss official documentation](https://www.zenoss.com/services-support/documentation/zenoss-json-api-0)
+
+* Conventional naming of routers
+```
+Products.Zuul.routers.device -> device_router
+Products.Zuul.routers.users -> users_router
+Products.Zuul.routers.triggers -> triggers_router
 ```
