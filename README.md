@@ -1,5 +1,9 @@
 # Node-Zenoss-Client
  Inspired from [python-zenoss-client](https://github.com/sayanarijit/python-zenoss-client)
+
+## Contributions
+Contributions are welcomed via PR.
+
 ### Installation
 
 ```bash
@@ -47,6 +51,7 @@ For full documentation of zenoss API, kindly refer to the link below:
 
 
 [json_api.sh](http://wiki.zenoss.org/Working_with_the_JSON_API#v5_version_of_the_json_api.sh) SHELL script published on [zenoss official wiki](http://wiki.zenoss.org)
+
 
 
 ### [zenoss official documentation](https://www.zenoss.com/services-support/documentation/zenoss-json-api-0)
